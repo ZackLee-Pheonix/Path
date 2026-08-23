@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование авиабилетов</title>
+</head>
+<body>
+    <h1>Форма бронирования авиабилетов</h1>
+    <form>
+        <h2>Данные пассажира</h2>
+        <label for="first-name">Имя:</label>
+        <input type="text" id="first-name" name="first-name">
+        <br><br>
+        <label for="last-name">Фамилия:</label>
+        <input type="text" id="last-name" name="last-name">
+        <br><br>
+        <label for="birth-date">Дата рождения:</label>
+        <input type="date" id="birth-date" name="birth-date">
+        <br><br>
+        <p>Пол:</p>
+        <label>
+            <input type="radio" name="gender" value="male">
+            Мужчина
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">
+            Женщина
+        </label>
+        <br><br>
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="phone">Номер телефона:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+        <label for="address">Адрес проживания:</label>
+        <input type="text" id="address" name="address">
+        <br><br>
+        <label for="citizenship">Гражданство:</label>
+        <select id="citizenship" name="citizenship">
+            <option value="">Выберите страну</option>
+            <option value="moldova">Молдова</option>
+            <option value="romania">Румыния</option>
+            <option value="ukraine">Украина</option>
+            <option value="russia">Россия</option>
+            <option value="italy">Италия</option>
+            <option value="germany">Германия</option>
+            <option value="france">Франция</option>
+        </select>
+        <br><br>
+        <label for="passport">Номер паспорта:</label>
+        <input type="text" id="passport" name="passport">
+        <br><br>
+        <label for="passport-expiry">Срок действия паспорта:</label>
+        <input type="date" id="passport-expiry" name="passport-expiry">
+        <br><br>
+        <label for="age">Возраст:</label>
+        <input type="number" id="age" name="age">
+        <hr>
+        <h2>Данные билета</h2>
+        <label for="ticket-type">Тип билета:</label>
+        <select id="ticket-type" name="ticket-type">
+            <option value="one-way">Одноразовый</option>
+            <option value="round-trip">Туда и обратно</option>
+        </select>
+        <br><br>
+        <label for="destination">Место назначения:</label>
+        <input type="text" id="destination" name="destination">
+        <br><br>
+        <label for="departure-date">Дата вылета:</label>
+        <input type="date" id="departure-date" name="departure-date">
+        <br><br>
+        <label for="return-date">Дата возврата:</label>
+        <input type="date" id="return-date" name="return-date">
+        <br><br>
+        <label for="class">Класс обслуживания:</label>
+        <select id="class" name="class">
+            <option value="economy">Эконом</option>
+            <option value="business">Бизнес</option>
+            <option value="first">Первый класс</option>
+        </select>
+        <br><br>
+        <p>Предпочтения по питанию:</p>
+        <label>
+            <input type="checkbox" name="food" value="vegetarian">
+            Вегетарианская
+        </label>
+        <label>
+            <input type="checkbox" name="food" value="gluten-free">
+            Без глютена
+        </label>
+        <label>
+            <input type="checkbox" name="food" value="regular">
+            Обычная
+        </label>
+        <br><br>
+        <p>Местоположение сиденья:</p>
+        <label>
+            <input type="radio" name="seat" value="window">
+            Окно
+        </label>
+        <label>
+            <input type="radio" name="seat" value="aisle">
+            Проход
+        </label>
+        <label>
+            <input type="radio" name="seat" value="none">
+            Без предпочтений
+        </label>
+        <br><br>
+        <label for="baggage">Количество багажа:</label>
+        <input type="number" id="baggage" name="baggage" min="0">
+        <br><br>
+        <label for="wishes">Пожелания:</label>
+        <br>
+        <textarea id="wishes" name="wishes" rows="5" cols="40"></textarea>
+        <br><br>
+        <p>Специальные запросы:</p>
+        <label>
+            <input type="checkbox" name="special-request" value="assistance">
+            Помощь для инвалидов
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox" name="special-request" value="wheelchair">
+            Помощь с креслом
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox" name="data-processing" required>
+            Я согласен на обработку персональных данных
+        </label>
+        <br><br>
+        <label for="loyalty">Программа лояльности:</label>
+        <input type="text" id="loyalty" name="loyalty">
+        <br><br>
+        <label for="payment">Финансовые данные:</label>
+        <input type="text" id="payment" name="payment">
+        <br><br>
+        <label for="mobile-app">Мобильное приложение авиакомпании:</label>
+        <select id="mobile-app" name="mobile-app">
+            <option value="yes">Да</option>
+            <option value="no">Нет</option>
+        </select>
+        <br><br>
+        <button type="submit">Забронировать билет</button>
+        <button type="reset">Очистить форму</button>
+    </form>
+</body>
+</html>
