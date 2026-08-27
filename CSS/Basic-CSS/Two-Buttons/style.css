@@ -1,0 +1,21 @@
+.btn1 {
+    background-color: #1982c4;
+    padding: 15px 75px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 50px;
+}
+
+.btn2 {
+    background-color:white;
+    padding: 15px 50px;
+    border: 1px solid #1982c4;
+    border-radius: 30px;
+    color: #1982c4;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 50px;
+}
