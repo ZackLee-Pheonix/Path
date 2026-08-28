@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px auto;
+    box-shadow: 0 0 3px black;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+}
+
+.delete-price {
+    color: gray;
+    font-size: 20px;
+}
+
+.sale-price {
+    color: white;
+    background-color: rgb(216, 17, 17);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.full-price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.real-price {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(5, 5, 65);
+}
+
+.text-gray {
+    font-size: 30px;
+    font-weight: 600;
+    color: gray;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(216, 17, 17);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.btn2 {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(5, 5, 65);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+}
