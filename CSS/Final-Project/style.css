@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f550;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    background-color: #f5f5f5;
+    width: 435px;
+}
+
+.header__logo {
+    display: flex;
+    gap: 10px;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.header__list p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.main__banner img {
+    width: 480px;
+    margin: 15px;
+    border-radius: 10px;
+}
