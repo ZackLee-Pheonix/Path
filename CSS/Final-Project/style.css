@@ -307,3 +307,19 @@ body {
     font-size: 18px;
     font-weight: 500;
 }
+
+.second__banner img {
+    max-width: 420px;
+    height: 300px;
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.sub {
+    background-color: white;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
