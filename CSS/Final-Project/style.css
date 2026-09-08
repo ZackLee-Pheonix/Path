@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f5f5f5;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -39,5 +43,267 @@
 
 .header__list p {
     font-size: 20px;
+    font-weight: 500;
+}
+
+.main__banner img {
+    max-width: 420px;
+    height: 450px;
+    width: 90%;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.main__catalog {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main__catalog__firstrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 20px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.phone img {
+    border-radius: 10px;
+    height: 135px;
+    margin-bottom: 20px;
+}
+
+.phone p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.phone a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.watch img {
+    border-radius: 10px;
+    height: 135px;
+    margin-bottom: 20px;
+}
+
+.watch p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.watch a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main__catalog__secondrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    gap: 5px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.main__catalog__secondrow img {
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.main__catalog__secondrow p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main__catalog__secondrow a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main__catalog__thirdrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 20px;
+}
+
+.ipad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.ipad img {
+    border-radius: 10px;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.ipad p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.ipad a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.tv img {
+    border-radius: 10px;
+    height: 85px;
+    margin-bottom: 60px;
+}
+
+.tv p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tv a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main__catalog__forthrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0px 20px;
+}
+
+.airpods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.airpods img {
+    border-radius: 10px;
+    height: 125px;
+    margin-bottom: 10px;
+}
+
+.airpods p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.airpods a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.keyboard img {
+    border-radius: 10px;
+    height: 60px;
+    margin-bottom: 60px;
+}
+
+.keyboard p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.keyboard a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main__catalog__fifthrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    gap: 5px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.main__catalog__fifthrow img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.main__catalog__fifthrow p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main__catalog__fifthrow a {
+    text-decoration: none;
+    font-size: 18px;
     font-weight: 500;
 }
