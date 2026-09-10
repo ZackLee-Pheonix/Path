@@ -29,7 +29,7 @@ body {
 }
 
 .header__logo img {
-    height: 50;
+    height: 20px;
 }
 
 .header__list {
@@ -368,7 +368,7 @@ body {
     padding: 10px 50px;
     font-size: 18px;
     color: white;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .footer {
@@ -395,10 +395,11 @@ body {
     gap: 20px;
     align-items: center;
     justify-content: center;
-    margin: 10px 0;
+    margin-bottom: 50px;
 }
 
 
 .card img {
     height: 30px;
 }
+
